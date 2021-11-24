@@ -30,7 +30,7 @@ class TestComponent {
     @PostConstruct
     fun startWork() {
         for (i in 1..5) {
-            println(controllerMethodAsync())
+            controllerMethodAsync()
         }
         println("OK!")
     }
